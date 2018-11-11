@@ -22,7 +22,7 @@ Make sure you have an account set up at [imgix](https://www.imgix.com/)
 Next install the package with the following command
 
 ``` powershell
-PM> Install-Package Imgix-Dotnet
+PM> Install-Package Imgix-NetStandard
 ```
 
 Once you have installed the package to your project, you can get started creating image links.
