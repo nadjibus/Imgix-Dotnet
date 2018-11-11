@@ -1,4 +1,4 @@
-# Imgix-Dotnet
+# Imgix-Dotnet (Net Standard Fork)
 
 **Note: This project is still in its infancy**
 
