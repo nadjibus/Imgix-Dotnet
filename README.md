@@ -67,4 +67,5 @@ var image200x400 = baseImage.Width(200).Height(400);
 
 ## Changes
 
+* 2018-11-11 - Ported to .NET Standard 2.0 on [nuget](https://www.nuget.org/packages/Imgix-NetStandard/)
 * 2015-12-02 - Version 0.0.1 Released on [nuget](https://www.nuget.org/packages/Imgix-Dotnet/)
