@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Imgix_Dotnet.Configuration;
 using NUnit.Framework;
 
+
 namespace Imgix_Dotnet.Tests
 {
     [TestFixture]

@@ -39,13 +39,11 @@ namespace Imgix_Dotnet
             if (string.IsNullOrWhiteSpace(scheme)) throw new ArgumentException(nameof(scheme));
             if (string.IsNullOrWhiteSpace(host)) throw new ArgumentException(nameof(host));
             if (string.IsNullOrWhiteSpace(path)) throw new ArgumentException(nameof(path));
-            if (secureUrlToken == null) throw new ArgumentNullException(nameof(secureUrlToken));
-            if (parameters == null) throw new ArgumentNullException(nameof(parameters));
             _scheme = scheme;
             _host = host;
-            _secureUrlToken = secureUrlToken;
+            _secureUrlToken = secureUrlToken ?? throw new ArgumentNullException(nameof(secureUrlToken));
             _path = path.StartsWith("/") ? path : "/" + path;
-            _parameters = parameters;
+            _parameters = parameters ?? throw new ArgumentNullException(nameof(parameters));
         }
 
         /// <summary>
